@@ -4,7 +4,7 @@ Donate link: http://www.hirner.at/
 Tags: JavaScript, Quiz, multiple choice,
 Requires at least: 2.0
 Tested up to: 3.2
-Stable tag: 1.1.1
+Stable tag: trunk
 
 HH Quiz just enables the Quiz JavaScript-Framework (GNU Lesser General Public License) from Felix Riesterer.
 
@@ -36,7 +36,72 @@ The most basic installation is a simple two step:
 == Frequently Asked Questions ==
 
 When writing a page/post, you can use the follow syntax:
+Matching Quiz (match pairs):
+**
+<div class="zuordnungs-quiz">
+{| 
+|-
+| [[Bild:4706bee.web.jpg|60px]] || Biene
+|-
+| [[Bild:Rote_Birne.jpg|60px]] || Birne
+|-
+| [[Bild:Gluecks_schwein.jpg]] || Glücksschwein
+|}
+</div>
+**
+Matching Quiz (match groups):
+**
+<div class="zuordnungs-quiz">
+<big>'''Zuordnung'''</big><br>
+Ordne die Bilder und Begriffe unten den richtigen Oberbegriffen zu.
+{| 
+| Insekt || Käfer || [[Bild:4706bee.web.jpg|60px]] || Ameise || Motte
+|-
+| Obst || Pflaume || [[Bild:Rote_Birne.jpg|60px]] || Apfel || Kirsche || Banane
+|-
+| Nutztier || [[Bild:Gluecks_schwein.jpg]] || Schaf || Rind
+|}
+</div>
+**
+Gap Fill Quiz : **
+<div class="lueckentext-quiz">
 
+Eine kleine '''[[Bild:4706bee.web.jpg|60px]]''' flog zu einer '''Birne ([[Bild:Rote_Birne.jpg|60px]])''' und 
+fragte sie nach dem '''Weg''' zum '''Glücksschwein (Glück bringendes Nutztier)'''. 
+
+</div>
+**
+Puzzle (made with the gap fill quiz mechanism):
+<div class="lueckentext-quiz">
+[[Bild:Ostern_ganz_vorschau.jpg|100px|right]] <!-- Anzeige Gesamtbild -->
+{| class="puzzle"
+|'''[[Bild:Ostern_1_1.jpg|100px]]'''
+|'''[[Bild:Ostern_1_2.jpg|100px]]'''
+|'''[[Bild:Ostern_1_3.jpg|100px]]'''
+|-
+|'''[[Bild:Ostern_2_1.jpg|100px]]'''
+|'''[[Bild:Ostern_2_2.jpg|100px]]'''
+|'''[[Bild:Ostern_2_3.jpg|100px]]'''
+|-
+|'''[[Bild:Ostern_3_1.jpg|100px]]'''
+|'''[[Bild:Ostern_3_2.jpg|100px]]'''
+|'''[[Bild:Ostern_3_3.jpg|100px]]'''
+|}
+</div>
+**
+Memo Quiz:
+**
+<div class="memo-quiz">
+{| 
+|-
+| [[Bild:Dreieck.svg|100px]] || Dreieck
+|-
+| [[Bild:Viereck1.jpg|100px]] || Viereck
+|-
+| [[Bild:Kreisfläche bestimmen.png|100px]] || Kreis
+|}
+</div>
+**
 Multiple Choice Quiz : **<div class="multiplechoice-quiz">
 
 Wer hat Amerika entdeckt? (Christoph Kolumbus) (!Marco Polo) (!James Cook)
@@ -46,73 +111,7 @@ Welches Tier ist ein Säugetier? (!Hai) (Wal) (Känguru) (!Meise) (Maus) (!Biene
 Wie lange dauerte der dreißigjährige Krieg? (!4 Jahre) (!10 Jahre) (!20 Jahre) (30 Jahre) (!9 Monate)
 
 </div>**
-
-For a crossword quiz, i.e. you could use:
-**
-<div class="kreuzwort-quiz">
-			<h2 id="kreuzwort-quiz">Kleines Kreuzworträtsel</h2>
-
-			<p>Beim Klick auf die Ziffern im Kreuzworträtsel öffnet sich ein Eingabefeld zum Eintragen.</p>
-			<table>
-				<tr>
-					<td>Garten</td>
-					<td>bepflanzter Bereich um ein Haus</td>
-				</tr>
-				<tr>
-
-					<td>Biene</td>
-					<td>Insekt</td>
-				</tr>
-				<tr>
-					<td>Baum</td>
-					<td>Wald bildende Pflanze</td>
-				</tr>
-
-				<tr>
-					<td>Sonne</td>
-					<td>Himmelskörper, der nur am Tag zu sehen ist</td>
-				</tr>
-				<tr>
-					<td>Wind</td>
-					<td>wetterbestimmende Luftbewegung</td>
-
-				</tr>
-				<tr>
-					<td>Blume</td>
-					<td>allgemein für 'Pflanze, die blüht'</td>
-				</tr>
-				<tr>
-					<td>Birne</td>
-
-					<td>Baumobst</td>
-				</tr>
-				<tr>
-					<td>Schwein</td>
-					<td>Nutztier</td>
-				</tr>
-				<tr>
-
-					<td>Mütze</td>
-					<td>Kopfbedeckung</td>
-				</tr>
-				<tr>
-					<td>Pferd</td>
-					<td>Reittier</td>
-				</tr>
-
-				<tr>
-					<td>mäßig</td>
-					<td>Gegenteil von 'übertrieben'</td>
-				</tr>
-			</table>
-		</div>
-**
-
 Furthermore at http://wiki.zum.de/Hilfe:Quiz-Script_Framework
 
 == Changelog ==
-= 1.1.1 (12-02-12) =
-* more and better stylesheets added
-== Upgrade Notice ==
-= 1.1.1 ( 15-02-12 ) =
- * concerns stylesheets only
+
