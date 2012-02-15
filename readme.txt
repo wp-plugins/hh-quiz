@@ -4,7 +4,7 @@ Donate link: http://www.hirner.at/
 Tags: JavaScript, Quiz, multiple choice,
 Requires at least: 2.0
 Tested up to: 3.2
-Stable tag: trunk
+Stable tag: 1.1.1
 
 HH Quiz just enables the Quiz JavaScript-Framework (GNU Lesser General Public License) from Felix Riesterer.
 
@@ -36,18 +36,65 @@ The most basic installation is a simple two step:
 == Frequently Asked Questions ==
 
 When writing a page/post, you can use the follow syntax:
-Matching Quiz (match pairs):
+For crossword puzzle:
 **
-<div class="zuordnungs-quiz">
-{| 
-|-
-| [[Bild:4706bee.web.jpg|60px]] || Biene
-|-
-| [[Bild:Rote_Birne.jpg|60px]] || Birne
-|-
-| [[Bild:Gluecks_schwein.jpg]] || Glücksschwein
-|}
-</div>
+<div class="kreuzwort-quiz">
+			<h2 id="kreuzwort-quiz">crossword puzzle</h2>
+
+			<p>click on a number to open the imput dialog:</p>
+			<table>
+				<tr>
+					<td>Garten</td>
+					<td>bepflanzter Bereich um ein Haus</td>
+				</tr>
+				<tr>
+
+					<td>Biene</td>
+					<td>Insekt</td>
+				</tr>
+				<tr>
+					<td>Baum</td>
+					<td>Wald bildende Pflanze</td>
+				</tr>
+
+				<tr>
+					<td>Sonne</td>
+					<td>Himmelskörper, der nur am Tag zu sehen ist</td>
+				</tr>
+				<tr>
+					<td>Wind</td>
+					<td>wetterbestimmende Luftbewegung</td>
+
+				</tr>
+				<tr>
+					<td>Blume</td>
+					<td>allgemein für 'Pflanze, die blüht'</td>
+				</tr>
+				<tr>
+					<td>Birne</td>
+
+					<td>Baumobst</td>
+				</tr>
+				<tr>
+					<td>Schwein</td>
+					<td>Nutztier</td>
+				</tr>
+				<tr>
+
+					<td>Mütze</td>
+					<td>Kopfbedeckung</td>
+				</tr>
+				<tr>
+					<td>Pferd</td>
+					<td>Reittier</td>
+				</tr>
+
+				<tr>
+					<td>mäßig</td>
+					<td>Gegenteil von 'übertrieben'</td>
+				</tr>
+			</table>
+		</div>
 **
 Matching Quiz (match groups):
 **
@@ -114,4 +161,8 @@ Wie lange dauerte der dreißigjährige Krieg? (!4 Jahre) (!10 Jahre) (!20 Jahre)
 Furthermore at http://wiki.zum.de/Hilfe:Quiz-Script_Framework
 
 == Changelog ==
-
+= 1.1.1 (12-02-12) =
+* more and better stylesheets added
+== Upgrade Notice ==
+= 1.1.1 ( 12-02-15 ) =
+ * concerns stylesheets only

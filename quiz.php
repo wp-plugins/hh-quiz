@@ -3,7 +3,7 @@
 Plugin Name: HH Quiz
 Plugin URI: http://www.hirner.at/archives/22592
 Description: Zur einfachen Verwendung des GPL JavaScript-Framewoks gleichen Namens von Felix Riesterer - es ermöglicht das Erstellen verschieder Quiz
-Version: 1.0.0
+Version: 1.1.1
 Author: Helmut Hirner
 Author URI: http://helmut.hirner.at/
 License: GPLv2 or later
@@ -35,7 +35,7 @@ wp_enqueue_script('Quiz', WP_CONTENT_URL . '/plugins/hhquiz/quiz.js');
 add_action('wp_enqueue_scripts', 'my_quiz_script'); // For use on the Front end (ie. Theme)
 
 function add_my_styles() {
-wp_register_style( 'blocker-css', WP_CONTENT_URL . '/plugins/hhquiz/css/anzeige-blocker.css');
+wp_register_style( 'blocker-css', WP_CONTENT_URL . '/plugins/hhquiz/css/quiz.css');
 wp_enqueue_style( 'blocker-css' );
 } 
 add_action('init', 'add_my_styles');
