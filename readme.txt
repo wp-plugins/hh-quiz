@@ -36,85 +36,6 @@ The most basic installation is a simple two step:
 == Frequently Asked Questions ==
 
 When writing a page/post, you can use the follow syntax:
-<<<<<<< .mine
-=======
-For crossword puzzle:
-**
-<div class="kreuzwort-quiz">
-			<h2 id="kreuzwort-quiz">crossword puzzle</h2>
-
-			<p>click on a number to open the imput dialog:</p>
-			<table>
-				<tr>
-					<td>Garten</td>
-					<td>bepflanzter Bereich um ein Haus</td>
-				</tr>
-				<tr>
-
-					<td>Biene</td>
-					<td>Insekt</td>
-				</tr>
-				<tr>
-					<td>Baum</td>
-					<td>Wald bildende Pflanze</td>
-				</tr>
-
-				<tr>
-					<td>Sonne</td>
-					<td>Himmelskörper, der nur am Tag zu sehen ist</td>
-				</tr>
-				<tr>
-					<td>Wind</td>
-					<td>wetterbestimmende Luftbewegung</td>
-
-				</tr>
-				<tr>
-					<td>Blume</td>
-					<td>allgemein für 'Pflanze, die blüht'</td>
-				</tr>
-				<tr>
-					<td>Birne</td>
-
-					<td>Baumobst</td>
-				</tr>
-				<tr>
-					<td>Schwein</td>
-					<td>Nutztier</td>
-				</tr>
-				<tr>
-
-					<td>Mütze</td>
-					<td>Kopfbedeckung</td>
-				</tr>
-				<tr>
-					<td>Pferd</td>
-					<td>Reittier</td>
-				</tr>
-
-				<tr>
-					<td>mäßig</td>
-					<td>Gegenteil von 'übertrieben'</td>
-				</tr>
-			</table>
-		</div>
-**
-Matching Quiz (match groups):
-**
-<div class="zuordnungs-quiz">
-<big>'''Zuordnung'''</big><br>
-Ordne die Bilder und Begriffe unten den richtigen Oberbegriffen zu.
-{| 
-| Insekt || Käfer || [[Bild:4706bee.web.jpg|60px]] || Ameise || Motte
-|-
-| Obst || Pflaume || [[Bild:Rote_Birne.jpg|60px]] || Apfel || Kirsche || Banane
-|-
-| Nutztier || [[Bild:Gluecks_schwein.jpg]] || Schaf || Rind
-|}
-</div>
-**
-Gap Fill Quiz : **
-<div class="lueckentext-quiz">
->>>>>>> .r505600
 
 Multiple Choice Quiz : **<div class="multiplechoice-quiz">
 
@@ -190,16 +111,8 @@ For a crossword quiz, i.e. you could use:
 Furthermore at http://wiki.zum.de/Hilfe:Quiz-Script_Framework
 
 == Changelog ==
-<<<<<<< .mine
 = 1.1.1 (12-02-12) =
 * more and better stylesheets added
 == Upgrade Notice ==
-= 1.1.1 ( 12-02-12 ) =
+= 1.1.1 ( 15-02-12 ) =
  * concerns stylesheets only
-=======
-= 1.1.1 (12-02-12) =
-* more and better stylesheets added
-== Upgrade Notice ==
-= 1.1.1 ( 12-02-15 ) =
- * concerns stylesheets only
->>>>>>> .r505600

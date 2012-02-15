@@ -1502,7 +1502,7 @@ var Quiz = {
 			loesungsClass2 : "eingabe-feld",
 			element : div, // Referenz auf das DIV-Element, in welchem sich das Quiz befindet
 			eingabe : document.createElement("div"), // Eingabebereich
-			tabelle : null, // Referenz auf das HTML-Element, in dem das Kreuzworträtsel angezeigt wird
+			tabelle : div, // Referenz auf das HTML-Element, in dem das Kreuzworträtsel angezeigt wird
 			daten : new Array(), // Hier stehen später Objekte, die die Quiz-Daten enthalten.
 			auswertungsButton : null, // Hier steht später das HTML-Element des Auswertungs-Buttons.
 			versuche : 0, // Speichert die Anzahl Versuche, die für die Lösung gebraucht wurden.
