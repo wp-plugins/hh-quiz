@@ -9,6 +9,7 @@ Stable tag: trunk
 HH Quiz just enables the Quiz JavaScript-Framework (GNU Lesser General Public License) from Felix Riesterer.
 
 == Description ==
+HH Quiz has been deleted on http://wordpress.org/extend/plugins/ because if you use the installation tool from wordpress, the plugin does not work, even all files are exact the same as in the zip on my blog. If you download the zip from http://www.hirner.at/archives/22592 and use in your wordpress install>download>install it will work. Its somehow unbelivable, but true.
 
 With the Quiz JavaSript-Framework you can simple create some different Quiz in a post.
 
